@@ -1,8 +1,9 @@
 # Rest Example
 
-![Python%20package](https://github.com/soft-r-evolution/rest_example/workflows/Python%20package/badge.svg)
+![Python application](https://github.com/soft-r-evolutions/rest_example/workflows/Python%20application/badge.svg)
 
-Insert project description here
+This example is made thanks [Realpython tutorial](https://realpython.com/flask-connexion-rest-api/).
+
 
 ## Installation
 
