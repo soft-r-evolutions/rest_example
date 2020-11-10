@@ -8,5 +8,3 @@
 
 __version__ = "0.0.1"
 
-
-from rest_example.core import truth_is_out_there

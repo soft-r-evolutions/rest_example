@@ -1,8 +1,9 @@
 # Rest Example
 
-![Python%20package](https://github.com/soft-r-evolution/rest_example/workflows/Python%20package/badge.svg)
+![Python application](https://github.com/soft-r-evolutions/rest_example/workflows/Python%20application/badge.svg)
 
-Insert project description here
+This example is made thanks [Realpython tutorial](https://realpython.com/flask-connexion-rest-api/).
+
 
 ## Installation
 
@@ -33,6 +34,9 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 pip install flake8 black
 pip install pytest pytest-cov
+
+pip install flask
+pip install connexion[swagger-ui]
 ```
 
 ## Linter
@@ -68,6 +72,25 @@ flake8 tests --count --exit-zero --max-complexity=10 --max-line-length=127 --sta
 pytest --cov-config=.coveragerc --cov=rest_example --cov-report=html --cov-report=term --log-cli-level=6 tests
 xdg-open htmlcov/index.html
 ```
+
+## Run the tests
+
+```
+python rest_example/app.py
+```
+
+To check people:
+
+```
+xdg-open http://localhost:5000/api/people
+```
+
+Or to consult swagger ui:
+
+```
+xdg-open http://localhost:5000/api/ui
+```
+
 
 ## Packaging
 
